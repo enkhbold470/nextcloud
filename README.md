@@ -37,6 +37,10 @@ This repository provides a comprehensive Docker setup for deploying Nextcloud al
 
 3. Modify the volume paths in the `docker-compose.yaml` file to reflect the location of your desired external drive. Ensure that the external drive is properly mounted on your Raspberry Pi.
 
+```bash
+docker exec -u 33 -it nextcloud php occ config:system:set trusted_domains 1 --value=<local_ip_address>
+```
+
 ## Running the Application
 
 To launch the application, execute the following command in the root directory of the project:
