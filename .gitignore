@@ -1,0 +1,24 @@
+# Start Generation Here
+# Ignore the default Docker files
+
+# Ignore the build directory
+build/
+
+# Ignore the .env file for sensitive information
+.env
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+tmp/
+*.tmp
+
+# Ignore database files
+*.db
+*.sql
+
+# Ignore Nextcloud specific files
+nextcloud.log
+nextcloud_data/
+# End Generation Here
