@@ -15,4 +15,4 @@ while IFS= read -r line; do
 done < .env.example
 
 # Run docker-compose
-docker-compose up -d
+docker compose up -d
